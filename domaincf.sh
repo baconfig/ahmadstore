@@ -182,7 +182,7 @@ echo ""
             random_subdomain
         else
 	        echo "$domainmu" > /etc/xray/domain
-            echo "IP=$domainmu" > /var/lib/yaddykakkoii/ipvps.conf
+            echo "IP=$domainmu" > /var/lib/ahmadstore/ipvps.conf
         fi
         clear
     elif [[ $host == "2" ]]; then
